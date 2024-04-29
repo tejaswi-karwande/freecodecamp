@@ -1,0 +1,9 @@
+#nav-bar{
+    position:fixed;
+    top:0;
+  }
+  @media query{
+    body{
+      background-color:#00ff00;
+    }
+  }

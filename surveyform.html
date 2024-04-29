@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+<h1 id="title">This is a Heading</h1>
+<p id="description">This is a paragraph.</p>
+<form id="survey-form">
+<fieldset>
+<label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+<label id="email-label">e-mail <input id="email" type="email" placeholder="Enter your e-mail" required></label>
+<label id="number-label">Age <input id="number" type="number" min="10" max="99" placeholder="Enter your age" required></label>
+<label>which tree is the best tree.
+<select id="dropdown">
+  <option value="">Select the tree</option>
+  <option value="1">banana tree</option>
+  <option value="2">neem tree</option>
+  </label>
+</select>
+</fieldset>
+<fieldset>
+<label>what would you recommended?
+  <label><input type="radio" name="attribute" value="1">definetly </label>
+  <label><input type="radio" name="attribute" value="2">maybe</label>
+  <label><input type="radio" name="attribute" value="3">not sure</label>
+  </label>
+  </fieldset>
+<fieldset>
+  <label>what would you like to grow in fruit?
+  <label><input type="checkbox" value="mango">mango</label>
+  <label><input type="checkbox" value="orange">orange</label>
+  <label><input type="checkbox" value="papaya">papaya</label>
+  </label>
+</fieldset>
+<fieldset>
+  <label>Any suggestion or comment...
+    <textarea placeholder="Enter youe comment here!"></textarea>
+  </label>
+</fieldset>
+<fieldset> 
+  <input type="submit" id="submit" value="submit"> 
+</fieldset>
+</form>
+</body>
+</html>
